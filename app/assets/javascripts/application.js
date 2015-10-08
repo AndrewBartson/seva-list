@@ -1,10 +1,8 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require fullcalendar
-//= require gcal
-//= require jquery-ui-1.10.3.custom.min
-//= require application
+//= require_tree .
+
 
 function moveEvent(event, dayDelta, minuteDelta, allDay){
     jQuery.ajax({
